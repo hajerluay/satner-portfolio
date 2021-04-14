@@ -1,0 +1,378 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image:url("./assignment5/images/body-bg.png");
+}
+#head1{
+    color:#854fee;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:  0px 20px 10px -15px rgb(3 27 78 / 10%);
+    
+
+
+}
+#div1 h3{
+    padding:0 10px;
+}
+#div1{
+    display:flex;
+    flex-flow:row;
+    
+}
+#sec1{
+    margin-top: -7px;
+    margin-left:80px;
+    padding: 13px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#bannerimg{
+    z-index: -1;
+    position: absolute;
+    margin-top:-60px;;
+    width: 1097px;
+    margin-left: -8px;
+   
+}
+#head5{
+    margin-top: -36px;;
+    margin-bottom: 0;
+    font-size: 20px;
+    
+}
+#button1{
+    color:white;
+    background-color: #854fee;
+    height: 39px;
+    width: 108px;
+    border-radius: 5px; 
+    text-align: center;
+    border: transparent;
+    box-shadow: 0px 6px 22px 4px rgb(3 27 78 / 10%);
+}
+
+#button2{
+    color:black;
+    background-color: white;
+    border-color: #854fee;
+    height: 39px;
+    width: 108px;
+    border-radius: 5px;
+   
+}
+   
+
+#button-div{
+margin-top: 19px;
+padding: 0 0;
+
+}
+#sec1 img{
+    width: 350px;
+    margin-right: 183px;
+    margin-top: 81px;
+}
+
+#sec1 h1{
+    font-size: 64px;
+    margin-top: -5px;
+}
+#sec1 h3{
+    font-size:xx-large;
+    margin-bottom: 2px;
+    margin-top: 84px;
+}
+    
+#aboutus{
+    margin-top: 74px;
+    margin-left: 85px;
+    width: 447px;
+}
+#sec2 h2{
+    margin-left: 698px;
+    margin-top: -441px;
+    font-size: 48px;
+}
+#sec2 p{
+    color: #777777;
+    margin-left: 696px;
+    line-height: 31px;
+}
+#cv-button{
+    background-color: #854fee;
+    color: white;
+    margin-left: 699px;
+    width: 198px;
+    height: 53px;
+    border-radius: 5px;
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: bolder;
+    border: transparent; 
+    box-shadow: 0px 6px 22px 4px rgb(3 27 78 / 10%);
+    
+}
+#photo{
+    
+    width: 50%;
+}
+
+#photo img{
+
+    padding: 27px;
+    width: 70px;
+    border: 1px solid #f1f1f1;
+    height: 30px;
+    margin: 10px;
+
+}
+#pargraph{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-top: 139px;
+    
+}
+#years{
+    background-color: #faf8ff;
+    display: flex;
+    flex-flow: column;
+    font-weight: bolder;
+    margin-top: 35px;
+    height: 282px;
+}
+#ten{
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+#ten h1{
+    color: #854fee;
+    font-size: 86px;
+    margin-right: 18px;
+    margin-top: 0;
+}
+#years img{
+    margin-bottom: 20px;
+    margin-top: -25px;
+    width: 89%;
+    align-self: center;
+}
+#ten p{
+    line-height: 23px;
+}
+
+#sec3{
+    margin-top: 144px;
+}
+#sec3 h2,p{
+    text-align: center;
+}
+#sec3 p{
+    color:#777777;
+    font-weight: 50px;
+
+}
+#sec4{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+#sec4 div{
+    text-align: center;
+    background-color: #f9f9fd;
+    padding:10px;
+    height: 247px;
+    line-height: 31px;
+    height: 285px;
+    padding-top: 37px;
+    color:#777777;
+    
+}
+#sec5 h1{
+    font-size: 33px;
+    margin-bottom: 100px;
+}
+#sec5{
+    margin-top: 180px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: 550;
+    padding-right: 40px;
+}
+#sec6{
+    margin-left:120px;
+    flex-flow: row;
+    display: flex;
+}
+.smallimg{
+    width:320px;
+    height:410px;
+}
+#img6{
+    width:320px;
+    height:350px;
+}
+figure{
+    margin-left: 0;
+    margin-right: 30px;
+}
+figcaption p{
+    margin-right: 211px;
+    font-size: 13px;
+    color: gray;
+    margin-top: -15px;
+}
+#sec7{
+    margin-top: 199px;
+}
+
+#sec7 h1{
+    text-align: center;
+}
+#sec7 p{
+    color:#777777;
+}
+#sec8 p{
+    color:#777777;
+
+}
+#sec8{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.dived{
+    display: flex;
+    
+    padding: 44px;
+    width: 453px;
+    line-height: 31px;
+    margin-left: 0px;
+    margin-top: 129px;
+    background-color: white;
+    box-shadow: 0px 6px 22px 4px rgb(3 27 78 / 10%);
+    height: 120px;
+    
+}
+.dived p{
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.dived h3{
+    margin-left: 20px;
+    margin-bottom: 6px;
+    margin-top: -2px;
+}
+
+.imgdaved{
+    width: 200px;
+    height: 100px;
+}
+.span{
+    
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    display: inline-block;
+
+
+}
+#sec9{
+    margin-left: 595px;
+    margin-top: 100px;
+}
+
+#span2{
+
+    background-color:#854fee;
+    width:13px;
+    height: 13px;
+}
+#sec10{
+    
+    background-color: #854fee;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    width:903px;
+    height: 429px;
+    margin-top: 217px;
+    background-image: url(./assignment5/images/home-banner.png);
+    background-color: linear-gradient(to right, #565fe0,#9c27b054);
+    background-blend-mode: screen, difference, lighten;
+    background-position: 70% 5%;
+}
+    
+    
+
+
+#sec10 h3{
+    font-size: 25px;
+}
+#sec10 h4{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+#sec10 div{
+    display: flex;
+    margin: 0 71px;
+    margin-left: 190px;
+    
+}
+#sec10 input{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+    padding-left:22px;
+    margin-right: 20px;
+    width: 324px;
+    height: 42px;
+}
+
+#sec10 button{
+    width: 172px;
+    height: 48px;
+    border-radius: 5px;
+    box-shadow: 1;
+    background-color: white;
+    font-weight: bolder;
+}
+footer{
+
+    display: flex;
+    margin-top: 106px;
+    
+}
+#info{
+    margin-left: 537px;
+    text-align: center;
+}
